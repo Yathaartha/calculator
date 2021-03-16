@@ -5,31 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Yathaartha| Calculator</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/main.css" />
     <script src="assets/app.js" defer></script>
   </head>
   <body>
     <div class="container">
-      <ul>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-      </ul>
-      <ul>
-        <li>4</li>
-        <li>5</li>
-        <li>6</li>
-      </ul>
-      <ul>
-        <li>7</li>
-        <li>8</li>
-        <li>9</li>
-      </ul>
-      <ul>
-        <li>.</li>
-        <li>0</li>
-        <li>=</li>
-      </ul>
+      <div class="calculator-content">
+        <div class="screen">
+          <div id="screen"></div>
+          <div id="result"></div>
+        </div>
+        <ul>
+          <div class="top">
+            <li class="clear">
+              <button class="clear">CE</button>
+            </li>
+            <li>
+              <div><span class="text">Yathaartha</span>| Calculator</div>
+            </li>
+          </div>
+        </ul>
+        <ul>
+          <li><button class="one">1</button></li>
+          <li><button class="two">2</button></li>
+          <li><button class="three">3</button></li>
+          <li><button class="plus">+</button></li>
+        </ul>
+        <ul>
+          <li><button class="four">4</button></li>
+          <li><button class="five">5</button></li>
+          <li><button class="six">6</button></li>
+          <li><button class="minus">-</button></li>
+        </ul>
+        <ul>
+          <li><button class="seven">7</button></li>
+          <li><button class="eight">8</button></li>
+          <li><button class="nine">9</button></li>
+          <li><button class="multiply">*</button></li>
+        </ul>
+        <ul>
+          <li><button class="point">.</button></li>
+          <li><button class="zero">0</button></li>
+          <li><button class="equals">=</button></li>
+          <li><button class="divide">/</button></li>
+        </ul>
+      </div>
     </div>
   </body>
 </html>
