@@ -5,7 +5,7 @@
 
 body {
   font-size: 1.4rem;
-  background-color: teal;
+  background-color: #85877C;
   line-height: 1.4;
   font-family: 'Oswald', sans-serif; }
 
@@ -33,11 +33,11 @@ button {
     height: 3rem;
     box-shadow: black;
     border-radius: 7px;
-    background-color: #333;
-    color: #fff;
+    background-color: #EFBCD5;
+    color: #001514;
     cursor: pointer; }
   .container button:hover {
-    background-color: #555; }
+    background-color: #CFEE9E; }
   .container .screen {
     background-color: rgba(29, 29, 29, 0.747);
     width: 100%;
@@ -51,16 +51,16 @@ button {
     color: #fff; }
 
 .calculator-content {
-  background: linear-gradient(to top left, silver 40%, #545454 60%);
+  background: #E5EAFA;
   padding: 1.2rem;
   border-radius: 10px;
   border: solid black 3px; }
 
 .clear button {
-  background-color: #631414; }
+  background-color: red; }
 
 .clear button:hover {
-  background-color: red; }
+  background-color: rgba(255, 0, 0, 0.5); }
 
 .top {
   display: flex;
